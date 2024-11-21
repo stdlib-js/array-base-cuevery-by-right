@@ -39,11 +39,10 @@
   "dependencies": {
     "@stdlib/array-base-arraylike2object": "^0.2.1",
     "@stdlib/array-base-filled": "^0.2.2",
-    "@stdlib/types": "^0.4.1",
+    "@stdlib/types": "^0.4.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/array-base-cuevery-by-right-lib": "github:stdlib-js/array-base-cuevery-by-right-lib#main",
     "@stdlib/array-base-to-accessor-array": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/assert-has-own-property": "^0.2.2",
