@@ -99,9 +99,9 @@ var bool = ( out === y );
 
 The invoked `predicate` function is provided three arguments:
 
--   **value**: collection element,
--   **index**: collection index,
--   **collection**: input collection,
+-   **value**: collection element.
+-   **index**: collection index.
+-   **collection**: input collection.
 
 To set the function execution context, provide a `thisArg`.
 
@@ -195,7 +195,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
