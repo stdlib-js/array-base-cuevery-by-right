@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cueveryByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@deno/mod.js';
+import cueveryByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@v0.1.0-deno/mod.js';
 ```
 
 #### cueveryByRight( x, predicate\[, thisArg ] )
@@ -130,7 +130,7 @@ var count = context.count;
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import cueveryByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@deno/mod.js';
+import cueveryByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@v0.1.0-deno/mod.js';
 
 function isPositive( value ) {
     return ( value > 0 );
