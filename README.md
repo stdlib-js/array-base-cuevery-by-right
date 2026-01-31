@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cueveryByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@esm/index.mjs';
+import cueveryByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@esm/index.mjs';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@v0.1.0-esm/index.mjs';
 ```
 
 #### cueveryByRight( x, predicate\[, thisArg ] )
@@ -135,7 +135,7 @@ var count = context.count;
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import cueveryByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@esm/index.mjs';
+import cueveryByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@v0.1.0-esm/index.mjs';
 
 function isPositive( value ) {
     return ( value > 0 );
