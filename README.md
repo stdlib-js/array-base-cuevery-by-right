@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import cueveryByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-cuevery-by-right/tags). For example,
+
+```javascript
 import cueveryByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@v0.1.1-esm/index.mjs';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@esm/index.mjs';
 ```
 
 #### cueveryByRight( x, predicate\[, thisArg ] )
@@ -135,7 +140,7 @@ var count = context.count;
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import cueveryByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@v0.1.1-esm/index.mjs';
+import cueveryByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cuevery-by-right@esm/index.mjs';
 
 function isPositive( value ) {
     return ( value > 0 );
